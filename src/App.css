@@ -1,0 +1,45 @@
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  height: 35vh;
+  width: 100vw;
+  margin: 0 auto;
+  /* margin-top: 3vh; */
+  text-align: center;
+  background-color: #242582;
+  display: flex;
+  background-color: #8EC5FC;
+  background-color: #FF9A8B;
+  background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+  /* background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%); */
+}
+
+.title {
+  margin: auto;
+  font-size: 5vw;
+  color: white;  
+}
+
+.content {
+  position: absolute;
+  top: 30vh;
+  right: 12.5vw;
+  color: white;
+  background-color: #202020;
+  border-radius: 20px;
+  width: 75vw;
+  height: fit-content;
+  /* min-height: 25vh; */
+}
+
+.quote {
+  font-size: 2.5vw;
+  text-align: center;
+  margin: auto;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  padding: 10%;
+}
