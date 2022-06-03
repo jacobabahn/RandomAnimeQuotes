@@ -29,10 +29,10 @@ const App = () => {
 			</div>
 			<div className="content">
 				<h6 className="quote">{data.quote} <br></br>-{data.character}</h6>
-			</div>
-			<div className="info">
-				{/* <h6>Anime: {data.anime}</h6> */}
-				{/* <h6>Character: {data.character}</h6> */}
+				<div className="info">
+					<h6 className="anime">Character: {data.character}</h6>
+					<h6 className="anime">Anime: {data.anime}</h6> 
+				</div>
 			</div>
 		</div>
 	)
